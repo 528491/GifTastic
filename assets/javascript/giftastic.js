@@ -71,6 +71,7 @@ $(document).ready(function(){
             imageTag.attr("animated-url", animatedURL);
             imageTag.attr("class", "gif-image");
             imageTag.attr("state", "static");
+            imageTag.addClass("col-md-4")
 
             //Append the image to the div
             imageDiv.append(imageTag);
